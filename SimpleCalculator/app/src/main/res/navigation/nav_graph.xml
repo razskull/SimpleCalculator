@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_calculator">
+
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="com.zybooks.simplecalculator.CalculatorFragment"
+        android:label="@string/title_calc"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_common"
+        android:name="com.zybooks.simplecalculator.CommonFunctions"
+        android:label="@string/title_common"
+        tools:layout="@layout/fragment_common_functions" />
+
+    <fragment
+        android:id="@+id/navigation_previous"
+        android:name="com.zybooks.simplecalculator.PreviousEquations"
+        android:label="@string/title_previous"
+        tools:layout="@layout/fragment_previous_equations" />
+</navigation>

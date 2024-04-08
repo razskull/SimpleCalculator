@@ -1,7 +1,7 @@
 # COP4656 Summer 2023 Project
 
 ## Description
-The code here runs a calculator app programmed in Java on Andriod Studio. This is a a collaborative project that Richard Simpson helped to complete for COP 4656 at Florida State University.
+The code here runs a calculator app programmed in Java on Andriod Studio. This is a collaborative project that Richard Simpson helped to complete for COP 4656 at Florida State University.
 
 ## Table of Contents
 - [Features](#features)
